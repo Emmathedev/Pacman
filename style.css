@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title {
+    width: 600px;
+}
+
+
+.grid {
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px; /*20px x 28px*/
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    content: url('./img/coin.png');
+    border: 3px solid darkblue;
+    box-sizing:  border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    content: url('./img/cherry.png');
+    border: 0px solid darkblue;
+}
+
+.blinky {
+    content: url('./img/blinky.png');
+  border: 0px solid darkblue;
+}
+
+.pinky{
+  content: url('./img/pinky.png');
+  border: 0px solid darkblue;
+  /*filter: hue-rotate(-40deg) brightness(200%);
+  border:0;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  transform: rotate(0deg) !important;*/
+}
+
+.inky {
+    content: url('./img/inky1.png');
+    border: 0px solid darkblue;
+}
+
+.clyde {
+    content: url('./img/clyde.png');  
+    border: 0px solid darkblue;
+}
+
+.pac-man {
+    content: url('./img/pacman.png');
+    /* border-radius: 10px; */
+    border: 0px;
+    /* width: 20px; */
+}
+
+.vies{
+    margin : 10px;
+}
+ion-icon {
+    font-size: 50px;fill: red;
+}
+#rejouer {
+    display: none;
+    margin: 5px auto 0 auto;
+  }
